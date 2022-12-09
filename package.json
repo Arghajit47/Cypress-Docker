@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "cy:spec": "cypress run --spec",
+    "cy:test": " npm install && cypress run --browser chrome ",
+    "cy:test-headed": "npm install && cypress run --config-file cypress.config.json --browser chrome --headed"
+  },
+  "dependencies": {
+    "cypress": "^9.7.0"
+  }
+}

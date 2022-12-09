@@ -1,0 +1,10 @@
+{
+  "video": false,
+  "chromeWebSecurity": false,
+  "reporter": "cypress-mochawesome-reporter",
+  "viewportHeight": 1080,
+  "viewportWidth": 1920,
+  "pageLoadTimeout": 60000,
+  "requestTimeout": 30000,
+  "defaultCommandTimeout": 50000
+}

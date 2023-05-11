@@ -1,10 +1,17 @@
 {
   "video": false,
   "chromeWebSecurity": false,
+  "reporter": "cypress-mochawesome-reporter",
+  "reporterOptions": {
+    "reportDir": "cypress/reports",
+    "charts": true,
+    "reportPageTitle": "testing-result-html"
+  },
   "viewportHeight": 1080,
   "viewportWidth": 1920,
   "pageLoadTimeout": 60000,
   "requestTimeout": 30000,
   "defaultCommandTimeout": 50000,
-  "testFiles": []
+  "allureReuseAfterSpec": true,
+  "testFiles": ["testingFacebook.spec.js", "testingGoogle.spec.js"]
 }
